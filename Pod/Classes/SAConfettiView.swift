@@ -110,7 +110,7 @@ public class SAConfettiView: UIView {
         confetti.emissionRange = CGFloat(Double.pi/4)
         confetti.spin = CGFloat(3.5 * intensity)
         confetti.spinRange = CGFloat(4.0 * intensity)
-        confetti.scaleRange = CGFloat(intensity)
+        confetti.scaleRange = CGFloat(0.15)
         confetti.scaleSpeed = CGFloat(-0.1 * intensity)
         confetti.contents = imageForType(type: type)!.cgImage
         return confetti
